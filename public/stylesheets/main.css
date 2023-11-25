@@ -1,0 +1,210 @@
+.jumbotron {
+  background: #00888d;
+  color: white;
+  padding-bottom: 50px; }
+  .jumbotron .btn-primary {
+    background: #2196f3;
+    border-color: #1769aa; }
+    .jumbotron .btn-primary:hover {
+      background: none; }
+  .jumbotron p {
+    color: #ffffff;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+  .navbar + .jumbotron {
+    margin-top: -20px; }
+  .jumbotron .lang-logo {
+    display: block;
+    background: #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid white; }
+    .jumbotron .lang-logo img {
+      max-width: 100%;}
+
+.playstore{ max-width: 50%}
+.playstore:hover {
+      background: #4285F4; }
+
+.icondescription img{ 
+  max-width: 80%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.icondescription h5{ 
+  font-size: 20px;
+  text-align: center;
+}
+
+.icondescription{
+  padding-bottom: 80px;
+}
+
+.footer{
+  text-align: center;
+  color: #999;
+  padding-bottom: 30px;
+  background: #f0f0f0; 
+  margin-top:  -30px; 
+}
+
+.imgAppModel
+{
+  max-width: 70%
+}
+
+.centerHorizontal
+{
+  transform: translate(0%, 50%);
+}
+
+.centerHorizontal h1
+{
+  font-size: 50px;
+}
+
+.appmodelstores
+{
+  background: #00888d;
+}
+
+.ebookinfo 
+{
+  background: #000000;
+
+ 
+  
+}
+
+.appmodelcommment
+{
+  background: #4285F4;
+ 
+}
+
+.jumbotron{ margin-top: -30px !important;}
+
+.contact{
+   background: #ffffff;
+}
+
+.contact h1{
+  color: #000000;
+}
+
+.contact p{
+  color: #000000;
+}
+
+
+.jumbotron .btn-primary:hover
+{
+    background: #1769aa;
+}
+
+/*MEDIA QUERIES*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .centerHorizontal
+    {
+      transform: translate(0%, 0%);
+    }
+
+} 
+
+/* Smartphones (landscape) ----------- */
+@media  (min-width : 321px) {
+    .centerHorizontal
+    {
+      transform: translate(0%, 0%);
+    }
+}
+
+@media only screen  and (min-width : 1224px) {
+    .centerHorizontal
+    {
+      transform: translate(0%, 50%);
+    }
+}
+
+
+
+
+/*CSS PLANS*/
+
+.db-pricing-seven {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #C5C2C2;
+    background-color: #EDEDED;
+}
+
+    .db-pricing-seven:hover {
+        margin-top: 5px;
+        -moz-transition: margin-top 0.25s ease 0s;
+        -ms-transition: margin-top 0.25s ease 0s;
+        transition: margin-top 0.25s ease 0s;
+    }
+
+    .db-pricing-seven ul {
+        list-style: none;
+        margin: 0;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+        .db-pricing-seven ul li {
+            border-bottom: solid 1px #D8D8D8;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+            .db-pricing-seven ul li.price {
+                background-color: #fff;
+                padding: 40px 20px 20px 20px;
+                font-size: 20px;
+                font-weight: 900;
+                color: #353c3e;
+                font-weight: 900;
+            }
+
+                .db-pricing-seven ul li.price i {
+                    padding: 30px;
+                    font-size: 50px;
+                    display: block;
+                }
+
+
+    .db-pricing-seven .pricing-footer {
+        padding: 20px;
+    }
+
+        .db-pricing-seven .pricing-footer a i {
+            margin: 5px;
+            top: 3px;
+        }
+
+.green{
+  background: green;
+}
+
+.red{
+  background: red;
+}
+
+
+
+
+
+    
+
